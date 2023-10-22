@@ -2,11 +2,71 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Logoipsum</title>
+    <link rel="stylesheet" href="stylesheets/reset.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div style="width: 375px; height: 725px; background-color: #F1F9FD">
-        Hello world
+    <div class="page-container">
+        <div class="logo-container">
+            <img class="logo-image" src="resources/images/logo_main.png" alt="Логотип Logoipsum">
+        </div>
+        <div class="name-points-container">
+            <h1>Иванов Иван</h1>
+            <p class="s1">600 баллов</p>
+        </div>
+        <div class="benefits-container">
+            <h3 lang="mul">Больше возможностей &laquo;&hearts; !== frontend&raquo;!</h3>
+            <ul class="no-bullets benefits-list">
+                <li>
+                   <div class="benefit-image-container">
+                       <img src="resources/images/icon_green_bolt.svg" alt="Зелёная молния"/>
+                   </div>
+                    <p class="b2">Важное сообщение в две строки</p>
+                </li>
+                <li>
+                    <div class="benefit-image-container">
+                       <img src="resources/images/icon_yellow_present.svg" alt="Жёлтый подарок"/>
+                   </div>
+                    <p class="b2">Делай домашку или он придет за тобой</p>
+                </li>
+                <li>
+                    <div class="benefit-image-container">
+                       <img src="resources/images/icon_purple_paper.svg" alt="Фиолетовый документ"/>
+                   </div>
+                    <p class="b2">Фронтенд это для сильных духом (и не только)</p>
+                </li>
+            </ul>
+        </div>
+        <a href="https://google.com">
+            <div class="app-redirect-button b1-semibold">
+                Перейти в мобильное приложение
+            </div>
+        </a>
+        <a href="https://google.com" class="info-redirect-button b1-reg">Узнать больше о проекте</a>
+        <div class="downloads-container">
+            <ul class="no-bullets downloads-list">
+                <li>
+                    <div class="download-container">
+                        <a href="https://google.com">
+                            <img src="resources/images/img_AppStore_download.svg" alt="Загрузить в App Store"/>
+                        </a>
+                    </div>
+                    <div class="download-container">
+                        <a href="https://google.com">
+                            <img src="resources/images/img_Play_Market_download.svg" alt="Загрузить в Google Play"/>
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <div class="download-container">
+                        <a href="https://google.com">
+                            <img src="resources/images/img_APK_download.svg" alt="Ссылка на APK"/>
+                        </a>
+                    </div>
+                </li>
+            </ul>
+        </div>
     </div>
 </body>
 </html>
