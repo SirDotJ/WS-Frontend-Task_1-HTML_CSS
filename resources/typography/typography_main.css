@@ -1,0 +1,45 @@
+:root {
+    /*  Structure as written in Figma  */
+
+    /*  Headers  */
+        /* h1 bold */
+    --h1-bold-font-weight: 700;
+    --h1-bold-font-family: Inter;
+    --h1-bold-font-size: 24px;
+    --h1-bold-line-height: 120%;
+    --h1-bold-letter-spacing: -2%;
+        /* h3 bold */
+    --h3-bold-font-weight: 700;
+    --h3-bold-font-family: Inter;
+    --h3-bold-font-size: 18px;
+    --h3-bold-line-height: 120%;
+    --h3-bold-letter-spacing: -2%;
+
+    /*  Subtitle  */
+        /* s1 light */
+    --s1-light-font-weight: 300;
+    --s1-light-font-family: Inter;
+    --s1-light-font-size: 18px;
+    --s1-light-line-height: 120%;
+    --s1-light-letter-spacing: -2%;
+
+    /*  Body  */
+        /* b1 reg */
+    --b1-reg-font-weight: 400;
+    --b1-reg-font-family: Inter;
+    --b1-reg-font-size: 16px;
+    --b1-reg-line-height: 120%;
+    --b1-reg-letter-spacing: -2%;
+        /* b1 semibold */
+    --b1-semibold-font-weight: 600;
+    --b1-semibold-font-family: Inter;
+    --b1-semibold-font-size: 16px;
+    --b1-semibold-line-height: 120%;
+    --b1-semibold-letter-spacing: -2%;
+        /* b2 reg */
+    --b2-reg-font-weight: 400;
+    --b2-reg-font-family: Inter;
+    --b2-reg-font-size: 14px;
+    --b2-reg-line-height: 120%;
+    --b2-reg-letter-spacing: -2%;
+}
