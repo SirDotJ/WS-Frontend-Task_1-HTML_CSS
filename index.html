@@ -3,69 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <title>Logoipsum</title>
-    <link rel="stylesheet" type="text/css" href="stylesheets/reset.css">
-    <link rel="stylesheet" type="text/css" href="stylesheets/typography.css">
+    <link rel="stylesheet" type="text/css" href="master.css">
 </head>
 <body>
-    <div class="page-container">
-        <div class="logo-container">
-            <img class="logo-image" src="resources/images/logo_main.png" alt="Логотип Logoipsum">
+    <div class="form form_background_blue-light">
+        <div class="logo">
+            <img class="logo__image" alt="Логотип Logoipsum" src="/resources/images/logo_main.png">
         </div>
-        <div class="name-points-container">
-            <h1>Иванов Иван</h1>
-            <p class="s1">600 баллов</p>
-        </div>
-        <div class="benefits-container">
-            <h3 lang="mul">Больше возможностей &laquo;&hearts; !== frontend&raquo;!</h3>
-            <ul class="no-bullets benefits-list">
-                <li>
-                   <div class="benefit-image-container">
-                       <img src="resources/images/icon_green_bolt.svg" alt="Зелёная молния"/>
-                   </div>
-                    <p class="b2">Важное сообщение в две строки</p>
-                </li>
-                <li>
-                    <div class="benefit-image-container">
-                       <img src="resources/images/icon_yellow_present.svg" alt="Жёлтый подарок"/>
-                   </div>
-                    <p class="b2">Делай домашку или он придет за тобой</p>
-                </li>
-                <li>
-                    <div class="benefit-image-container">
-                       <img src="resources/images/icon_purple_paper.svg" alt="Фиолетовый документ"/>
-                   </div>
-                    <p class="b2">Фронтенд это для сильных духом (и не только)</p>
-                </li>
-            </ul>
-        </div>
-        <a href="https://google.com">
-            <div class="app-redirect-button b1-semibold">
-                Перейти в мобильное приложение
+        <div class="content">
+            <div class="user-info">
+                <h1 class="user-info__name form_text_h1 form_text_center">Иванов Иван</h1>
+                <p class="user-info__points form_text_s1 form_text_center">600 баллов</p>
             </div>
-        </a>
-        <a href="https://google.com" class="info-redirect-button b1-reg">Узнать больше о проекте</a>
-        <div class="downloads-container">
-            <ul class="no-bullets downloads-list">
-                <li>
-                    <div class="download-container">
-                        <a href="https://google.com">
-                            <img src="resources/images/img_AppStore_download.svg" alt="Загрузить в App Store"/>
-                        </a>
+            <div class="benefits benefits_background_white">
+                <h3 class="benefits__header form_text_h3 form_text_left" lang="mul">Больше возможностей &laquo;&hearts; !== frontend&raquo;!</h3>
+                <div class="benefits-content">
+                    <div class="benefit">
+                       <div class="benefit-logo">
+                           <img class="benefit-logo__image" src="resources/images/icon_green_bolt.svg" alt="Зелёная молния"/>
+                       </div>
+                        <p class="benefit__text form_text_b2 form_text_left">Важное сообщение в две строки</p>
                     </div>
-                    <div class="download-container">
-                        <a href="https://google.com">
-                            <img src="resources/images/img_Play_Market_download.svg" alt="Загрузить в Google Play"/>
-                        </a>
+                    <div class="benefit">
+                        <div class="benefit-logo">
+                           <img class="benefit-logo__image" src="resources/images/icon_yellow_present.svg" alt="Жёлтый подарок"/>
+                       </div>
+                        <p class="benefit__text form_text_b2 form_text_left">Делай домашку или он придет за тобой</p>
                     </div>
-                </li>
-                <li>
-                    <div class="download-container">
-                        <a href="https://google.com">
-                            <img src="resources/images/img_APK_download.svg" alt="Ссылка на APK"/>
-                        </a>
+                    <div class="benefit">
+                        <div class="benefit-logo">
+                           <img class="benefit-logo__image" src="resources/images/icon_purple_paper.svg" alt="Фиолетовый документ"/>
+                       </div>
+                        <p class="benefit__text form_text_b2 form_text_left">Фронтенд это для сильных духом (и не только)</p>
                     </div>
-                </li>
-            </ul>
+                </div>
+                <a class="mobile-redirect" href="https://google.com">
+                    <div class="mobile-redirect__button form_clickable mobile-redirect__button_theme_purple-curved-box form_text_b1-semibold form_text_center">
+                        Перейти в мобильное приложение
+                    </div>
+                </a>
+            </div>
+            <a class="content__info-redirect content__info-redirect_theme_purple form_text_b1-reg form_text_center" href="https://google.com">
+                Узнать больше о проекте
+            </a>
+            <div class="downloads">
+                <div class="downloads-row">
+                    <a class="download" href="https://google.com">
+                        <div class="download-box form_clickable">
+                            <img class="download-box__image" src="/resources/images/img_AppStore_download.svg" alt="App Store Download">
+                        </div>
+                    </a>
+                    <a class="download" href="https://google.com">
+                        <div class="download-box form_clickable">
+                            <img class="download-box__image" src="/resources/images/img_Play_Market_download.svg" alt="App Store Download">
+                        </div>
+                    </a>
+                </div>
+                <div class="downloads-row">
+                    <a class="download" href="https://google.com">
+                        <div class="download-box form_clickable">
+                            <img class="download-box__image" src="/resources/images/img_APK_download.svg" alt="APK Download">
+                        </div>
+                    </a>
+                </div>
+            </div>
         </div>
     </div>
 </body>

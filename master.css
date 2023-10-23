@@ -1,0 +1,97 @@
+/* Stylesheet imports all stylesheets defined in /stylesheets in the right order */
+/* ^this is done to avoid including all css files by hand for each potential HTML file */
+
+/* reset */
+@import url("reset.css");
+
+/* form */
+@import url("/stylesheets/form/form.css");
+@import url("/stylesheets/form/form_clickable.css");
+
+/* form_background */
+@import url("/stylesheets/form/_background/form_background_blue-light.css");
+
+/* form_text */
+@import url("/stylesheets/form/_text/form_text_h1.css");
+@import url("/stylesheets/form/_text/form_text_h3.css");
+@import url("/stylesheets/form/_text/form_text_s1.css");
+@import url("/stylesheets/form/_text/form_text_b1-reg.css");
+@import url("/stylesheets/form/_text/form_text_b1-semibold.css");
+@import url("/stylesheets/form/_text/form_text_b2.css");
+@import url("/stylesheets/form/_text/form_text_left.css");
+@import url("/stylesheets/form/_text/form_text_center.css");
+@import url("/stylesheets/form/_text/form_text_right.css");
+
+/* content */
+@import url("/stylesheets/form/content/content.css");
+
+/* content__info-redirect */
+@import url("/stylesheet/form/content/__info-redirect/content__info-redirect.css");
+
+/* content__info-redirect_theme */
+@import url("/stylesheet/form/content/__info-redirect/_theme/content__info-redirect_theme_purple.css");
+
+/* benefits */
+@import url("/stylesheets/form/content/benefits/benefits.css");
+
+/* benefits__header */
+@import url("/stylesheets/form/content/benefits/__header/benefits__header.css");
+
+/* benefits_background */
+@import url("/stylesheets/form/content/benefits/_background/benefits_background_white.css");
+
+/* benefits-content */
+@import url("/stylesheets/form/content/benefits/benefits-content/benefits-content.css");
+
+/* benefit */
+@import url("/stylesheets/form/content/benefits/benefits-content/benefit/benefits.css");
+
+/* benefit__text */
+@import url("/stylesheets/form/content/benefits/benefits-content/benefit/__text/benefit_text.css");
+
+/* benefit-logo */
+@import url("/stylesheets/form/content/benefits/benefits-content/benefit/benefit-logo/benefit-logo.css");
+
+/* benefit-logo__image */
+@import url("/stylesheets/form/content/benefits/benefits-content/benefit/benefit-logo/__image/benefit-logo__image.css");
+
+/* downloads */
+@import url("/stylesheets/form/content/downloads/downloads.css");
+
+/* downloads-row */
+@import url("/stylesheets/form/content/downloads/downloads-row/downloads-row.css");
+
+/* download */
+@import url("/stylesheets/form/content/downloads/downloads-row/download/download.css");
+
+/* download-box */
+@import url("/stylesheets/form/content/downloads/downloads-row/download/download-box/download-box.css");
+
+/* download-box__image */
+@import url("/stylesheets/form/content/downloads/downloads-row/download/download-box/__image/download-box__image.css");
+
+/* user-info */
+@import url("/stylesheets/form/content/user-info/user-info.css");
+
+/* user-info__name */
+@import url("/stylesheets/form/content/user-info/__name/user-info__name.css");
+
+/* user-info__points */
+@import url("/stylesheets/form/content/user-info/__points/user-info__points.css");
+
+/* mobile-redirect */
+@import url("/stylesheets/form/content/mobile-redirect/mobile-redirect.css");
+
+/* mobile-redirect__button */
+@import url("/stylesheets/form/content/mobile-redirect/__button/mobile-redirect__button.css");
+
+/* mobile-redirect__button_theme */
+@import url("/stylesheets/form/content/mobile-redirect/__button/_theme/mobile-redirect__button_theme_purple-curved-box.css");
+
+/* logo */
+@import url("/stylesheets/form/logo/logo.css");
+
+/* logo__image */
+@import url("/stylesheets/form/logo/__image/logo__image.css");
+
+/* ... */

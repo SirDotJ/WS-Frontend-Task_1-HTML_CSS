@@ -1,0 +1,67 @@
+@import url("/resources/colors/colors_main.css");
+
+.page-container {
+    background-color: var(--background);
+    width: 375px;
+    height: 725px;
+    display: flex;
+    padding: 32px 24px;
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+}
+
+.logo-container {
+    width: 200px;
+    height: 40px;
+}
+
+.name-points-container {
+    text-align: center;
+}
+
+.benefits-container {
+    background-color: var(--white);
+}
+
+.app-redirect-button {
+    color: var(--white); /* To make text inside visible compared to background */
+    background-color: var(--blue-primary);
+    padding: 30px;
+    border-radius: 8px;
+}
+
+.name-points-container {
+    margin-bottom: 24px;
+}
+
+.benefits-container {
+    padding: 24px;
+    margin-bottom: 36px;
+}
+
+.benefits-container > h3 {
+    text-align: left;
+    margin-bottom: 24px;
+}
+
+.benefits-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.benefit {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+}
+
+.benefit-image-container {
+    display: flex;
+    width: 32px;
+    height: 32px;
+}
+
+
