@@ -21,6 +21,7 @@
 @import url("/stylesheets/form/_text/form_text_left.css");
 @import url("/stylesheets/form/_text/form_text_center.css");
 @import url("/stylesheets/form/_text/form_text_right.css");
+@import url("/stylesheets/form/_text/form_text_white-text.css");
 
 /* content */
 @import url("/stylesheets/form/content/content.css");
@@ -35,7 +36,7 @@
 @import url("/stylesheets/form/content/benefits/benefits.css");
 
 /* benefits__header */
-@import url("/stylesheets/form/content/benefits/__header/benefits__header.css");
+@import url("/stylesheets/form/content/benefits/__header/benefits-content__header.css");
 
 /* benefits_background */
 @import url("/stylesheets/form/content/benefits/_background/benefits_background_white.css");
@@ -43,17 +44,29 @@
 /* benefits-content */
 @import url("/stylesheets/form/content/benefits/benefits-content/benefits-content.css");
 
+/* benefits-list */
+@import url("/stylesheets/form/content/benefits/benefits-content/benefits-list/benefits-list.css");
+
 /* benefit */
-@import url("/stylesheets/form/content/benefits/benefits-content/benefit/benefits.css");
+@import url("/stylesheets/form/content/benefits/benefits-content/benefits-list/benefit/benefit.css");
 
 /* benefit__text */
-@import url("/stylesheets/form/content/benefits/benefits-content/benefit/__text/benefit_text.css");
+@import url("/stylesheets/form/content/benefits/benefits-content/benefits-list/benefit/__text/benefit_text.css");
 
 /* benefit-logo */
-@import url("/stylesheets/form/content/benefits/benefits-content/benefit/benefit-logo/benefit-logo.css");
+@import url("/stylesheets/form/content/benefits/benefits-content/benefits-list/benefit/benefit-logo/benefit-logo.css");
 
 /* benefit-logo__image */
-@import url("/stylesheets/form/content/benefits/benefits-content/benefit/benefit-logo/__image/benefit-logo__image.css");
+@import url("/stylesheets/form/content/benefits/benefits-content/benefits-list/benefit/benefit-logo/__image/benefit-logo__image.css");
+
+/* mobile-redirect */
+@import url("/stylesheets/form/content/benefits/mobile-redirect/mobile-redirect.css");
+
+/* mobile-redirect__button */
+@import url("/stylesheets/form/content/benefits/mobile-redirect/__button/mobile-redirect__button.css");
+
+/* mobile-redirect__button_theme */
+@import url("/stylesheets/form/content/benefits/mobile-redirect/__button/_theme/mobile-redirect__button_theme_purple-curved-box.css");
 
 /* downloads */
 @import url("/stylesheets/form/content/downloads/downloads.css");
@@ -78,15 +91,6 @@
 
 /* user-info__points */
 @import url("/stylesheets/form/content/user-info/__points/user-info__points.css");
-
-/* mobile-redirect */
-@import url("/stylesheets/form/content/mobile-redirect/mobile-redirect.css");
-
-/* mobile-redirect__button */
-@import url("/stylesheets/form/content/mobile-redirect/__button/mobile-redirect__button.css");
-
-/* mobile-redirect__button_theme */
-@import url("/stylesheets/form/content/mobile-redirect/__button/_theme/mobile-redirect__button_theme_purple-curved-box.css");
 
 /* logo */
 @import url("/stylesheets/form/logo/logo.css");
