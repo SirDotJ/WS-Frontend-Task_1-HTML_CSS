@@ -1,0 +1,131 @@
+:root {
+    /*  Structure as written in Figma  */
+
+    /* White/Black colors */
+    --black: #000000;
+    --grayscale-10: #191919;
+    --grayscale-20: #333333;
+    --grayscale-30: #4C4C4C;
+    --grayscale-40: #666666;
+    --grayscale-50: #808080;
+    --grayscale-60: #999999;
+    --grayscale-70: #B2B2B2;
+    --grayscale-80: #B2B2B2;
+    --grayscale-90: #E5E5E5;
+    --white: #FFFFFF;
+
+    /* Structure colors */
+    --background: #F1F9FD;
+
+    /* Green */
+    --green-primary: #1ACFAA;
+    --green-light: #D1F5EE;
+
+    /* Yellow */
+    --yellow-primary: #F5C861;
+    --yellow-light: #FDF4DF;
+
+    /* Blue */
+    --blue-primary: #514FAE;
+    --blue-light: #DCDCEF;
+    --blue-dark: #413F8B;
+
+    /* Violet */
+    --violet-primary: #AB87FF;
+    --violet-light: #EEE7FF;
+}
+
+.form {
+    width: 375px;
+    display: flex;
+    flex-direction: column;
+    padding: 32px 24px;
+    gap: 32px;
+}
+
+.form_clickable {
+    cursor: pointer;
+}
+
+.form_background_blue-light {
+    background-color: var(--background);
+}
+
+.logo {
+    width: 200px;
+    height: 40px;
+    align-self: center;
+}
+
+.logo__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.benefits {
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+}
+
+.benefit {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.benefits-content {
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    gap: 24px;
+}
+
+.benefits-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.benefits_background_white {
+    background-color: var(--white);
+}
+
+.benefit-logo__image {
+    width: 32px;
+    height: 32px;
+}
+
+.mobile-redirect {
+    display: flex;
+    align-self: center;
+}
+
+.mobile-redirect__button {
+    padding: 20px 30px;
+}
+
+.mobile-redirect__button_theme_purple-curved-box {
+    background-color: var(--blue-primary);
+    border-radius: 8px;
+}
+
+.downloads-row {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+}
+
+.downloads {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
