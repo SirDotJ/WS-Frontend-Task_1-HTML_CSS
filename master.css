@@ -26,17 +26,8 @@
 /* content */
 @import url("/stylesheets/form/content/content.css");
 
-/* content__info-redirect */
-@import url("/stylesheet/form/content/__info-redirect/content__info-redirect.css");
-
-/* content__info-redirect_theme */
-@import url("/stylesheet/form/content/__info-redirect/_theme/content__info-redirect_theme_purple.css");
-
 /* benefits */
 @import url("/stylesheets/form/content/benefits/benefits.css");
-
-/* benefits__header */
-@import url("/stylesheets/form/content/benefits/__header/benefits-content__header.css");
 
 /* benefits_background */
 @import url("/stylesheets/form/content/benefits/_background/benefits_background_white.css");
@@ -50,14 +41,8 @@
 /* benefit */
 @import url("/stylesheets/form/content/benefits/benefits-content/benefits-list/benefit/benefit.css");
 
-/* benefit__text */
-@import url("/stylesheets/form/content/benefits/benefits-content/benefits-list/benefit/__text/benefit_text.css");
-
-/* benefit-logo */
-@import url("/stylesheets/form/content/benefits/benefits-content/benefits-list/benefit/benefit-logo/benefit-logo.css");
-
-/* benefit-logo__image */
-@import url("/stylesheets/form/content/benefits/benefits-content/benefits-list/benefit/benefit-logo/__image/benefit-logo__image.css");
+/* benefit__image */
+@import url("/stylesheets/form/content/benefits/benefits-content/benefits-list/benefit/__image/benefit__image.css");
 
 /* mobile-redirect */
 @import url("/stylesheets/form/content/benefits/mobile-redirect/mobile-redirect.css");
@@ -73,24 +58,6 @@
 
 /* downloads-row */
 @import url("/stylesheets/form/content/downloads/downloads-row/downloads-row.css");
-
-/* download */
-@import url("/stylesheets/form/content/downloads/downloads-row/download/download.css");
-
-/* download-box */
-@import url("/stylesheets/form/content/downloads/downloads-row/download/download-box/download-box.css");
-
-/* download-box__image */
-@import url("/stylesheets/form/content/downloads/downloads-row/download/download-box/__image/download-box__image.css");
-
-/* user-info */
-@import url("/stylesheets/form/content/user-info/user-info.css");
-
-/* user-info__name */
-@import url("/stylesheets/form/content/user-info/__name/user-info__name.css");
-
-/* user-info__points */
-@import url("/stylesheets/form/content/user-info/__points/user-info__points.css");
 
 /* logo */
 @import url("/stylesheets/form/logo/logo.css");
