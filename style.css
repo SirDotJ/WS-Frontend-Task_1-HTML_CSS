@@ -39,13 +39,15 @@
     cursor: pointer;
 }
 
-.form--background-theme-blue-light {
+.form {
     width: 375px;
     display: flex;
     flex-direction: column;
     padding: 32px 24px;
     gap: 32px;
+}
 
+.form--background-theme-blue-light {
     background-color: var(--background);
 }
 
@@ -73,12 +75,14 @@
     gap: 36px;
 }
 
-.benefits-content--background-theme-white {
+.benefits-content {
     display: flex;
     flex-direction: column;
     padding: 24px;
     gap: 24px;
+}
 
+.benefits-content--background-theme-white {
     background-color: var(--white);
 }
 
@@ -104,9 +108,11 @@
     align-self: center;
 }
 
-.mobile-redirect__button--theme-purple-curved {
+.mobile-redirect__button {
     padding: 20px 30px;
+}
 
+.mobile-redirect__button--theme-purple-curved {
     background-color: var(--blue-primary);
     border-radius: 8px;
 }
